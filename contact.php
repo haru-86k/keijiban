@@ -1,5 +1,11 @@
-<?php include('header.php'); ?>
-
+<header>
+        <h1>ガンダムアニメ作品掲示板</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">ホーム</a></li>
+                <li><a href="question.php">作品についての質問コーナー</a></li>
+            </ul>
+        </nav>
 <main>
     <h2>お問い合わせ</h2>
     <form action="send_contact.php" method="post">
@@ -15,5 +21,4 @@
         <button type="submit">送信</button>
     </form>
 </main>
-
-<?php include('footer.php'); ?>
+<p>&copy; 2025 Gundam掲示板. All rights reserved.</p>

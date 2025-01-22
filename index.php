@@ -1,9 +1,11 @@
-<?php include('header.php'); ?>
-<main>
-    <h2>ガンダムシリーズ</h2>
-    
-    <h2>おすすめ作品</h2>
 
+<?php include('header.php'); ?>
+<link rel="stylesheet" href="style.css">
+<main>
+    <h2>おすすめガンダム作品</h2>
+    
+        
+   
 
     <section>
         <h3>作品一覧</h3>
@@ -32,8 +34,11 @@
             <li><a href="works.php?work=22">機動戦士ガンダム 鉄血のオルフェンズ</a></li>
             <li><a href="works.php?work=23">機動戦士ガンダム サンダーボルト</a></li>
             <li><a href="works.php?work=24">機動戦士ガンダムUC RE:0096</a></li>
-            <!-- 他の作品を追加 -->
+            <li><a href="works.php?work=25">機動戦士ガンダム 水星の魔女</a></li>
+            <li><a href="works.php?work=26">機動戦士gundamジークアクス</a></li>
         </ul>
     </section>
 </main>
-<?php include('footer.php'); ?>
+<footer>
+<p>&copy; 2025 Gundam掲示板. All rights reserved.</p>
+</footer>

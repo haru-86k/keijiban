@@ -13,7 +13,8 @@
             <ul>
                 <li><a href="index.php">ホーム</a></li>
                 <li><a href="contact.php">お問い合わせ</a></li>
-                <li><a href="board.php">質問コーナー</a></li>
+                <li><a href="question.php">作品についての質問コーナー</a></li>
+                <li><a href="admin_login.php">管理者ログイン</a></li>
             </ul>
         </nav>
     </header>
